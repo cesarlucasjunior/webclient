@@ -1,4 +1,4 @@
-package com.cesarlucasjunior.webclientproject
+package com.cesarlucasjunior.webclientproject.adapter.exception
 
 class NoSuchEpisodeException: NoSuchElementException {
 
