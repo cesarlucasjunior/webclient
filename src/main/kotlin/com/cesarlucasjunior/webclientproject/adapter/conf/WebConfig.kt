@@ -1,4 +1,4 @@
-package com.cesarlucasjunior.webclientproject
+package com.cesarlucasjunior.webclientproject.adapter.conf
 
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration

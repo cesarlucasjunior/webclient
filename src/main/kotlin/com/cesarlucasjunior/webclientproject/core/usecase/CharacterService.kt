@@ -1,5 +1,7 @@
-package com.cesarlucasjunior.webclientproject
+package com.cesarlucasjunior.webclientproject.core.usecase
 
+import com.cesarlucasjunior.webclientproject.adapter.exception.NoSuchCharacterException
+import com.cesarlucasjunior.webclientproject.adapter.conf.WebConfig
 import com.cesarlucasjunior.webclientproject.core.domain.Character
 import org.springframework.http.HttpStatusCode
 import org.springframework.http.MediaType

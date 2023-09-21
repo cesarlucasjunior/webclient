@@ -1,5 +1,6 @@
-package com.cesarlucasjunior.webclientproject
+package com.cesarlucasjunior.webclientproject.adapter.web
 
+import com.cesarlucasjunior.webclientproject.core.usecase.CharacterService
 import com.cesarlucasjunior.webclientproject.core.domain.Character
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.PathVariable
