@@ -1,6 +1,6 @@
 package com.cesarlucasjunior.webclientproject.adapter.web
 
-import com.cesarlucasjunior.webclientproject.core.usecase.EpisodeService
+import com.cesarlucasjunior.webclientproject.adapter.integration.EpisodeService
 import com.cesarlucasjunior.webclientproject.core.domain.Episode
 import com.cesarlucasjunior.webclientproject.core.domain.ListOfEpisodes
 import org.springframework.web.bind.annotation.GetMapping

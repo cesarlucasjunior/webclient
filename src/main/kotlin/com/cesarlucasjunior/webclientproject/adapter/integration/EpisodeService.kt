@@ -1,4 +1,4 @@
-package com.cesarlucasjunior.webclientproject.core.usecase
+package com.cesarlucasjunior.webclientproject.adapter.integration
 
 import com.cesarlucasjunior.webclientproject.adapter.exception.NoSuchEpisodeException
 import com.cesarlucasjunior.webclientproject.adapter.conf.WebConfig
