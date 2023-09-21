@@ -26,6 +26,8 @@ dependencies {
 	implementation("io.netty:netty-resolver-dns-native-macos:4.1.72.Final:osx-aarch_64")
 	runtimeOnly("org.postgresql:postgresql")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
+	testImplementation("io.mockk:mockk:1.13.7")
+	implementation("io.github.serpro69:kotlin-faker:1.15.0-rc.1")
 }
 
 tasks.withType<KotlinCompile> {
