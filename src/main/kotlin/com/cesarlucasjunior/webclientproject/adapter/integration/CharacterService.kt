@@ -11,7 +11,6 @@ import reactor.core.publisher.Mono
 
 @Service
 class CharacterService(private val webConfig: WebConfig): LoadCharactersOutputPort {
-
     override fun getCharacterById(id: String): Mono<Character> {
         return webConfig.webClient()
             .get()
